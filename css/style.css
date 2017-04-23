@@ -281,18 +281,23 @@ footer i {
     width: 20px;
 }
 
+.article img {
+	margin: auto;
+}
+
 .hover {
     position: absolute;
     visibility: hidden;
-    transform: translate(0, -100%);
+    left: 50%;
+    transform: translate(-50%, -100%);
     opacity: .5;
 }
 
 .plus {
     position: absolute;
     visibility: hidden;
-    margin-top: -35%;
-    margin-left: 50%;
+    top: 35%;
+    left: 50%;
     transform: translate(-50%, -50%);
     opacity: 1;
     color: green;
