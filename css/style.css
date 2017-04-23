@@ -1,0 +1,442 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+body {
+    padding-top: 111px;
+}
+
+footer.navbar.navbar-default {
+    margin-bottom: 0;
+    padding-top: 70px;
+    border-width: 0;
+    background-color: #2f4052;
+}
+
+.nopadding {
+    padding: 3px;
+}
+
+.navbar-default .navbar-nav > li > a {
+    font-size: large;
+    color: #506a85;
+}
+
+.jumbotron {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.vertical-center {
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+    font-family: Lato;
+    font-size: 78px;
+    font-weight: 900;
+    line-height: 88px;
+    text-align: center;
+    color: #fff;
+}
+
+.carousel-caption {
+    top: 50%;
+    right: 15%;
+    bottom: auto;
+    left: 15%;
+    height: initial;
+    transform: translateY(-50%);
+}
+
+.carousel-caption p {
+    font-family: 'Source Sans Pro';
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 33px;
+    text-align: center;
+    color: #a3b1bf;
+}
+
+.carousel-caption button {
+    font-family: 'Source Sans Pro';
+    font-size: 18px;
+    font-weight: 700;
+    width: 295px;
+    height: 65px;
+    text-align: center;
+    color: #fff;
+    border-radius: 3px;
+}
+
+.carousel .carousel-control {
+    visibility: hidden;
+}
+
+.carousel:hover .carousel-control {
+    visibility: visible;
+}
+
+.main {
+    margin-top: 130px;
+    margin-bottom: 80px;
+}
+
+.main h2 {
+    font-family: Lato;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 54px;
+    margin-bottom: 30px;
+    color: #506a85;
+}
+
+.main p {
+    font-family: 'Source Sans Pro';
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 34px;
+    color: #73879c;
+}
+
+.main button {
+    font-family: 'Source Sans Pro';
+    font-size: 15px;
+    font-weight: 700;
+    height: 50px;
+    margin-top: 40px;
+    border-radius: 3px;
+}
+
+.carousel-content {
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+
+h4 {
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 26px;
+    margin-top: 35px;
+    color: #506a85;
+}
+
+.article p {
+    font-family: 'Source Sans Pro';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    margin-bottom: 0;
+    padding-bottom: 30px;
+    color: #73879c;
+}
+
+.carousel-content h2 {
+    font-family: Lato;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 54px;
+    margin-top: 130px;
+    color: #506a85;
+}
+
+.carousel-content h2 ~ p {
+    font-family: 'Source Sans Pro';
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 34px;
+    margin-bottom: 80px;
+    color: #73879c;
+}
+
+.carousel-content .col-sm-3 {
+    margin-top: 80px;
+}
+
+.carousel-content .container {
+    padding-bottom: 195px;
+}
+
+.copyright {
+    height: 80px;
+    margin-top: 80px;
+    background-color: #283645;
+}
+
+h5 {
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    margin-bottom: 25px;
+    color: #fff;
+}
+
+footer p {
+    font-family: 'Source Sans Pro';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    margin: 0;
+    color: #a3b1bf;
+}
+
+footer .col-xs-3 p:first-of-type {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+footer span {
+    font-family: 'Source Sans Pro';
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 22px;
+    color: #a3b1bf;
+}
+
+.copyright p,
+.copyright ul,
+.copyright a {
+    font-family: 'Source Sans Pro';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    top: 50%;
+    bottom: auto;
+    transform: translateY(-50%);
+    color: #707e8c;
+}
+
+.copyright .container {
+    height: inherit;
+}
+
+.copyright li:not(:first-child)::before {
+    font-family: 'Glyphicons Halflings';
+    font-size: 9px;
+    float: left;
+    margin-top: 1px;
+    margin-left: -20px;
+    content: '\e124';
+}
+
+.copyright li {
+    margin-left: 17px;
+}
+
+footer button {
+    font-family: 'Source Sans Pro';
+    font-size: 13px;
+    font-weight: 700;
+}
+
+footer .form-control {
+    border: none;
+    background-color: #4d5c6c;
+}
+
+::-webkit-input-placeholder {
+    font-family: 'Source Sans Pro';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #828e99;
+}
+
+input[placeholder] {
+    text-overflow: ellipsis;
+}
+
+.carousel button {
+    margin-top: 60px;
+}
+
+.traits i {
+    color: #00bc9c;
+}
+
+.traits h3 {
+    font-family: Lato;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 34px;
+    margin-top: 0;
+    margin-bottom: 30px;
+    color: #506a85;
+}
+
+.traits p {
+    font-family: 'Source Sans Pro';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    color: #73879c;
+}
+
+footer {
+    margin-top: 130px;
+}
+
+footer i {
+    width: 20px;
+}
+
+.hover {
+    position: absolute;
+    visibility: hidden;
+    transform: translate(0, -100%);
+    opacity: .5;
+}
+
+.plus {
+    position: absolute;
+    visibility: hidden;
+    margin-top: -35%;
+    margin-left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 1;
+    color: green;
+}
+
+.article:hover .hover {
+    visibility: visible;
+    opacity: .5;
+}
+
+.article:hover .plus {
+    visibility: visible;
+}
+
+.article:hover h4 {
+    color: #00bc9c;
+}
+
+.article .plus h4 {
+    color: #fff;
+}
+
+.article .plus p {
+    color: #fff;
+}
+
+.article {
+    position: relative;
+    cursor: pointer;
+    background-color: #fff;
+}
+
+.carousel-content .carousel-inner {
+    background-image: url(../img/background.png);
+}
+
+.form-horizontal {
+    padding: 1px 0 0 0;
+    background-color: #4d5c6c;
+}
+
+.btn-success {
+    color: #fff;
+    border-color: #00b092;
+    background-color: #00bc9c;
+}
+
+.btn-success:hover {
+    border-color: #00a085;
+    background-color: #00b092;
+}
+
+.btn-success:active,
+.btn-success:active:hover,
+.btn-success:active:focus,
+.btn-success:focus {
+    border-color: #00937b;
+    background-color: #00a085;
+}
+
+a:hover span,
+a:hover {
+    color: #00bc9c !important;
+}
+
+.carousel-indicators li {
+    width: 12px;
+    height: 12px;
+    margin: 0 5px;
+    border: none;
+    background-color: #506a85;
+}
+
+.carousel-indicators .active {
+    margin: 0 5px;
+    background-color: #00bc9c;
+}
+
+.carousel-content .carousel-control {
+    top: 50%;
+    right: auto;
+    bottom: 12px;
+    left: auto;
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+    transform: translateY(-50%);
+    opacity: 1;
+    background-color: grey;
+    background-image: none;
+}
+
+.carousel-content .carousel-control:hover {
+    background-color: #506a85;
+}
+
+.carousel-content .carousel-control span {
+    top: 9px;
+    left: -2px;
+}
+
+.carousel-content .carousel-control.left {
+    margin: 0 -87px;
+}
+
+.carousel-content .carousel-control.left span {
+    left: 11px;
+}
+
+.carousel-main .carousel-control {
+    top: 50%;
+    width: 40px;
+    height: 40px;
+    margin: 0 30px;
+    transform: translateY(-50%);
+    opacity: 1;
+    background-color: none;
+    background-image: none;
+}
+
+.carousel-main .carousel-control:hover {
+    background-color: #506a85;
+}
+
+.carousel-main .carousel-control span {
+    top: 14px;
+    left: 5px;
+}
+
+.carousel-main .carousel-control.left span {
+    left: 16px;
+}
+
+.carousel-main .carousel-indicators {
+    bottom: 0;
+    visibility: hidden;
+    width: 136px;
+    height: 30px;
+    margin-bottom: -1px;
+    margin-left: -68px;
+    padding-top: 5px;
+    background-color: white;
+}
+
+.carousel-main:hover .carousel-indicators {
+    visibility: visible;
+}
