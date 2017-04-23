@@ -334,7 +334,7 @@ footer i {
     background-image: url(../img/background.png);
 }
 
-.form-horizontal {
+footer .form-horizontal {
     padding: 1px 0 0 0;
     background-color: #4d5c6c;
 }
@@ -426,4 +426,8 @@ a:hover {
 
 .carousel-main:hover .carousel-indicators {
     visibility: visible;
+}
+
+.modal-body {
+	height: 340px;
 }
