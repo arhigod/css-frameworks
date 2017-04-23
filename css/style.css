@@ -282,7 +282,7 @@ footer i {
 }
 
 .article img {
-	margin: auto;
+    margin: auto;
 }
 
 .hover {
@@ -301,6 +301,10 @@ footer i {
     transform: translate(-50%, -50%);
     opacity: 1;
     color: green;
+}
+
+footer .plus {
+    top: 50%;
 }
 
 .article:hover .hover {
@@ -429,5 +433,5 @@ a:hover {
 }
 
 .modal-body {
-	height: 340px;
+    height: 340px;
 }
