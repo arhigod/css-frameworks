@@ -389,17 +389,8 @@ a:hover {
     background-color: #506a85;
 }
 
-.carousel-content .carousel-control span {
-    top: 9px;
-    left: -2px;
-}
-
 .carousel-content .carousel-control.left {
     margin: 0 -87px;
-}
-
-.carousel-content .carousel-control.left span {
-    left: 11px;
 }
 
 .carousel-main .carousel-control {
@@ -415,15 +406,6 @@ a:hover {
 
 .carousel-main .carousel-control:hover {
     background-color: #506a85;
-}
-
-.carousel-main .carousel-control span {
-    top: 14px;
-    left: 5px;
-}
-
-.carousel-main .carousel-control.left span {
-    left: 16px;
 }
 
 .carousel-main .carousel-indicators {
