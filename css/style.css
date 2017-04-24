@@ -12,7 +12,7 @@ footer.navbar.navbar-default {
 }
 
 .nopadding {
-    padding: 3px;
+    padding: 3px 6px 3px 0;
 }
 
 .navbar-default .navbar-nav > li > a {
@@ -296,16 +296,17 @@ footer i {
 .plus {
     position: absolute;
     visibility: hidden;
-    top: 35%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     opacity: 1;
     color: green;
 }
 
-footer .plus {
-    top: 50%;
+.carousel-content img.plus {
+	top: 35%;
 }
+
 
 .article:hover .hover {
     visibility: visible;
@@ -432,6 +433,6 @@ a:hover {
     visibility: visible;
 }
 
-.modal-body {
-    height: 340px;
+.modal .form-horizontal {
+    float: none;
 }
