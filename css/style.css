@@ -15,6 +15,11 @@ h1 {
     color: #fff;
 }
 
+h1 span {
+	background-color: #506a85;
+	  box-shadow: 10px 0 0px 0px #506a85, -10px 0 0px 0px #506a85;
+}
+
 h2 {
     font-family: Lato;
     font-size: 44px;
@@ -181,11 +186,6 @@ a:hover span,
     color: #506a85;
 }
 
-.carousel-main .item:nth-of-type(3) h1 {
-    display: inline;
-    background-color: #506a85;
-}
-
 .carousel-main .item:nth-of-type(4) .carousel-caption {
     top: 35%;
     bottom: 20px;
@@ -194,11 +194,6 @@ a:hover span,
 
 .carousel-main .item:nth-of-type(4) p {
     color: #fff;
-}
-
-.carousel-main .item:nth-of-type(4) h1 {
-    display: inline;
-    background-color: #506a85;
 }
 
 .carousel-main .item:nth-of-type(5) .carousel-caption {
