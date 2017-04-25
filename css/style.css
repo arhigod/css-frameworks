@@ -12,7 +12,6 @@ h1 {
     font-size: 78px;
     font-weight: 900;
     line-height: 88px;
-    text-align: center;
     color: #fff;
 }
 
@@ -84,11 +83,12 @@ a:hover span,
 
 .carousel-caption {
     top: 50%;
-    right: 15%;
+    right: 0;
     bottom: auto;
-    left: 15%;
+    left: 0;
     height: initial;
     transform: translateY(-50%);
+    text-align: center;
 }
 
 .carousel-caption p {
@@ -96,7 +96,7 @@ a:hover span,
     font-size: 24px;
     font-weight: 400;
     line-height: 33px;
-    text-align: center;
+    margin-top: 10px;
     color: #a3b1bf;
 }
 
@@ -106,7 +106,7 @@ a:hover span,
     font-weight: 700;
     width: 295px;
     height: 65px;
-    text-align: center;
+    margin-top: 40px;
     color: #fff;
     border-radius: 3px;
 }
@@ -130,10 +130,6 @@ a:hover span,
 .carousel-indicators .active {
     margin: 0 5px;
     background-color: #00bc9c;
-}
-
-.carousel button {
-    margin-top: 60px;
 }
 
 
@@ -167,6 +163,43 @@ a:hover span,
 
 .carousel-main:hover .carousel-indicators {
     visibility: visible;
+}
+
+.carousel-main .item:nth-of-type(2) .carousel-caption {
+    text-align: right;
+}
+
+.carousel-main .item:nth-of-type(2) p {
+    color: #fff;
+}
+
+.carousel-main .item:nth-of-type(3) .carousel-caption {
+    text-align: left;
+}
+
+.carousel-main .item:nth-of-type(3) h1 {
+    display: inline;
+    background-color: #506a85;
+}
+
+.carousel-main .item:nth-of-type(4) .carousel-caption {
+    top: 35%;
+    bottom: 20px;
+    text-align: right;
+}
+
+.carousel-main .item:nth-of-type(4) p {
+    color: #fff;
+}
+
+.carousel-main .item:nth-of-type(4) h1 {
+    display: inline;
+    background-color: #506a85;
+}
+
+.carousel-main .item:nth-of-type(5) .carousel-caption {
+    top: 35%;
+    bottom: 20px;
 }
 
 
