@@ -177,6 +177,10 @@ a:hover span,
     text-align: left;
 }
 
+.carousel-main .item:nth-of-type(3) p {
+    color: #506a85;
+}
+
 .carousel-main .item:nth-of-type(3) h1 {
     display: inline;
     background-color: #506a85;
